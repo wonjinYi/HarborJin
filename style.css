@@ -28,12 +28,18 @@ footer{
 	width : 300px;
 	height : 250px;
 	
-	margin-left : 10px;
-	margin-right : 10px;
+	margin : 10px;
 }
 .outCont:hover{
 	filter : brightness(150%);
 }
 .inCOnt{
 	padding : 10px;
+}
+
+
+@media screen and (max-width: 769px) {
+	article{
+		flex-direction : column;
+	}
 }
