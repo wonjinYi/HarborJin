@@ -31,6 +31,9 @@ footer{
 	margin-left : 10px;
 	margin-right : 10px;
 }
+.outCont:hover{
+	filter : brightness(150%);
+}
 .inCOnt{
 	padding : 10px;
 }
