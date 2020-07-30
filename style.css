@@ -23,6 +23,12 @@ footer{
 	color:#2F3336;
 }
 
+#logo{
+	transition : all 1s;
+}
+#logo:hover{
+	transform:rotate(360deg);
+}
 #title{
 	margin:0;
 	padding : 5px;
@@ -46,7 +52,7 @@ footer{
 	border-width : 2px;
 	border-radius : 10%;
 	
-	width : 270px;
+	width : 250px;
 	height : 250px;
 	
 	margin : 10px;
