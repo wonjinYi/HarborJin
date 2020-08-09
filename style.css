@@ -26,20 +26,20 @@ footer{
 #logo{
 	transition : all 1s;
 }
-#logo:hover{
-	transform:rotate(360deg);
-}
+
 #title{
 	margin:0;
 	padding : 5px;
 	color : white;
 
-	
-	
 	position : relative;
 	top : 280px;
+	
+	transition : opacity 0.5s ease-in-out
 }
-
+#title:hover{
+	opacity : 0;
+}
 .outCont{
 	display : inline-block;
 	
