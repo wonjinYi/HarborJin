@@ -63,7 +63,11 @@ footer{
 	border-color : #404040;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.20), 0 6px 6px rgba(0, 0, 0, 0.20);
 }
-.inCOnt{
+.inCont{
+	display : flex;
+	align-items : center;
+	justify-content : center;
+	flex-wrap : wrap;
 	padding : 10px;
 	text-align : center;
 }
@@ -81,6 +85,20 @@ footer{
 	box-shadow: 0 10px 20px rgba(0,0,0,0.20), 0 6px 6px rgba(0, 0, 0, 0.20);
 }
 
+
+#jindo-status {
+	font-weight : bold;
+}
+.font-orange {
+	color : orange;
+}
+.font-green {
+	color : green;
+}
+
+.font-red {
+	color : red;
+}
 @media screen and (max-width: 769px) {
 	.outCont{
 		width : 120px;
@@ -88,4 +106,7 @@ footer{
 		
 		
 	}
+	#jindo-status {
+	font-size : 0.5rem;
+}
 }
